@@ -4,7 +4,7 @@ local Config = {
     PlatoSecret     = "bcfbbd06-e449-411f-a489-8ce0605200d9", 
     Secret          = "Joserax_MVS_Secret_2026", 
     
-    MainScriptURLs    = {
+    MainScriptURL    = {
         "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Core.lua",
         "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils.lua",
         "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils1.lua"
