@@ -11,6 +11,13 @@ if not _G[ProtectionConfig.SecretKey] then
     return 
 end
 
+
+-- Verifica si el ServiceId es el tuyo
+if not Config or Config.ServiceId ~= 27041 then
+    error("Acceso denegado: Este script no está autorizado para este ServiceId.")
+    return -- Detiene la ejecución
+end
+
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
