@@ -454,7 +454,7 @@ local function openMiniHub()
     ListLayout.SortOrder = Enum.SortOrder.LayoutOrder
     ListLayout.Parent = ScrollFrame
 
-    local scriptsList = {
+local scriptsList = {
         { Name = "RysHub", Credits = "@Rysted & @Rey", Category = "HUB's", Discord = "https://discord.gg/Hx7SmBEP8t", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Rysted/scripts/main/MurderersVSSheriffs.lua"))() end },
         { Name = "Dark Hub", Credits = "@Dark Hub", Category = "HUB's", Discord = "https://discord.gg/NZ8SWCW62k", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=0245794645232"))("0245794645232") end },
         { Name = "DXV1D", Credits = "@DXV1D", Category = "HUB's", Discord = "N/A", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=9387482195239"))("9387482195239") end },
@@ -463,16 +463,15 @@ local function openMiniHub()
         { Name = "Danhub", Credits = "@danhub", Category = "Farm", Discord = "https://discord.gg/xhpg89mRZ", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=Danhub"))("Danhub") end },
         { Name = "Fernando Hub", Credits = "@Fernando", Category = "Farm", Discord = "https://discord.gg/SgTngraUmP", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://pastebin.com/raw/hqNqZ8CM"))() end },
 
-		{ Name = "AUTO-SHOOT (solo-pc)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils.lua"))() end },
-		{ Name = "SILENT-AIM(Mobile-beta)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils1.lua"))() end },
+        { Name = "AUTO-SHOOT (solo-pc)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils.lua"))("DUELS_HUB_SECRETO") end },
+        { Name = "SILENT-AIM(Mobile-beta)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils1.lua"))("DUELS_HUB_SECRETO") end },
         { Name = "Hitbox-expander", Credits = "@DanHub", Category = "Aim", Discord = "https://discord.gg/K2f3727px8", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=BIMOLEGION"))("BIMOLEGION") end },
 
         { Name = "EMOTES/ANIMATIONS", Credits = "@7yd7", Category = "Misc", Discord = "N/A", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))() end },
-        { Name = "ZyroXploit", Credits = "@ZyroXploit", Category = "Misc", Discord = "N/A", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyroOnTop/CopyMimicScript/refs/heads/main/byZyro"))() end },       
-        { Name = "HEADLESS (key)", Credits = "@Zorvixa.", Category = "Misc", Discord = "https://discord.gg/HfMBj367jT", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thebabydashminecraft-stack/Headless-zorvixa/refs/heads/main/Headless.lua"))() end },		
-        { Name = "ROBLOX-USERNAME", Credits = "@???", Category = "Misc", Discord = "N/A", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://pastebin.com/raw/VQg93ehe"))() end },		
+        { Name = "ZyroXploit", Credits = "@ZyroXploit", Category = "Misc", Discord = "N/A", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZyroOnTop/CopyMimicScript/refs/heads/main/byZyro"))() end },        
+        { Name = "HEADLESS (key)", Credits = "@Zorvixa.", Category = "Misc", Discord = "https://discord.gg/HfMBj367jT", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/thebabydashminecraft-stack/Headless-zorvixa/refs/heads/main/Headless.lua"))() end },        
+        { Name = "ROBLOX-USERNAME", Credits = "@???", Category = "Misc", Discord = "N/A", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://pastebin.com/raw/VQg93ehe"))() end },        
     }
-
     local TabNames = {"HUB's", "Aim", "Farm", "Misc", "Settings"}
     local TabButtons = {}
 
