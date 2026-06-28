@@ -1,8 +1,5 @@
 local ProtectionConfig = {
-
-    SecretKey = "Test",
-    
-
+    SecretKey = "Joserax_MVS_Secret_2026",
     HubName = "OYB HUB"
 }
 
