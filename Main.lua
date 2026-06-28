@@ -3,8 +3,12 @@ local Config = {
     ServiceId       = 27041, 
     PlatoSecret     = "bcfbbd06-e449-411f-a489-8ce0605200d9", 
     Secret          = "Joserax_MVS_Secret_2026", 
-    MainScriptURL   = "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Core.lua", 
     
+    MainScriptURLs    = {
+        "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Core.lua",
+        "https://raw.githubusercontent.com/OTRO-LINK/SCRIPT/main/Core2.lua",
+        "https://raw.githubusercontent.com/TERCER-LINK/SCRIPT/main/Core3.lua"
+    },
 
     ShowDiscord     = true,
     DiscordURL      = "https://discord.gg/hXTZFrXmnf",
