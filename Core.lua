@@ -1,6 +1,6 @@
 local ProtectionConfig = {
     SecretKey = "Joserax_MVS_Secret_2026",
-    HubName = "OYB HUB"
+    HubName = "DASHBOARD-HUB"
 }
 
 if not _G[ProtectionConfig.SecretKey] then
