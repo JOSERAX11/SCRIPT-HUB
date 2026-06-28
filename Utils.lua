@@ -1,4 +1,3 @@
-
 local ProtectionConfig = {
     SecretKey = "Joserax_MVS_Secret_2026",
     HubName = "DASHBOARD-HUB"
