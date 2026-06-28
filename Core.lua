@@ -1,12 +1,16 @@
--- 1. PROTECCIÓN ANTI-BYPASS
 local ProtectionConfig = {
-    SecretKey = "Joserax_MVS_Secret_2026", -- Debe coincidir con Main.lua
-    HubName = "CORE DASHBOARD"
+
+    SecretKey = "Test",
+    
+
+    HubName = "OYB HUB"
 }
 
 if not _G[ProtectionConfig.SecretKey] then
     local player = game:GetService("Players").LocalPlayer
-    if player then player:Kick("\n🛡️ Ejecución No Autorizada 🛡️") end
+    if player then
+        player:Kick("\n🛡️ Unauthorized Execution 🛡️\n\nPlease use the official Key System to run " .. ProtectionConfig.HubName)
+    end
     return 
 end
 
