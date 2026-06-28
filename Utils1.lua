@@ -1,20 +1,11 @@
-local ProtectionConfig = {
-    SecretKey = "Joserax_MVS_Secret_2026",
-    HubName = "DASHBOARD-HUB"
-}
 
-if not _G[ProtectionConfig.SecretKey] then
-    local player = game:GetService("Players").LocalPlayer
-    if player then
-        player:Kick("\n🛡️ Unauthorized Execution 🛡️\n\nPlease use the official Key System to run " .. ProtectionConfig.HubName)
-    end
-    return 
+local key = ... 
+
+-- VERIFICAR LA CLAVE
+if key ~= "DUELS_HUB_SECRETO" then
+    warn("❌ ACCESO DENEGADO: Por favor, ejecuta este script usando el DUELS-HUB oficial.")
+    return -- El "return" hace que el resto del script no se ejecute
 end
--- Verifica si el ServiceId es el tuyo
-if not Config or Config.ServiceId ~= 27041 then
-    error("Acceso denegado: Este script no está autorizado para este ServiceId.")
-    return -- Detiene la ejecución
-end 
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
