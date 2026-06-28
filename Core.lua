@@ -463,8 +463,8 @@ local function openMiniHub()
         { Name = "Danhub", Credits = "@danhub", Category = "Farm", Discord = "https://discord.gg/xhpg89mRZ", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=Danhub"))("Danhub") end },
         { Name = "Fernando Hub", Credits = "@Fernando", Category = "Farm", Discord = "https://discord.gg/SgTngraUmP", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://pastebin.com/raw/hqNqZ8CM"))() end },
 
-		{ Name = "AUTO-SHOOT (solo-pc)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/MVSDUELSSCRIPT/refs/heads/main/AUTO-SHOOT(PC)"))() end },
-		{ Name = "SILENT-AIM(Mobile-beta)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/MVSDUELSSCRIPT/refs/heads/main/Aimbot-mobile"))() end },
+		{ Name = "AUTO-SHOOT (solo-pc)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils.lua"))() end },
+		{ Name = "SILENT-AIM(Mobile-beta)", Credits = "@DUELS-HUB", Category = "Aim", Discord = "https://discord.gg/MfD8u9MpcW", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils1.lua"))() end },
         { Name = "Hitbox-expander", Credits = "@DanHub", Category = "Aim", Discord = "https://discord.gg/K2f3727px8", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://encrypt-x.pages.dev/Scripts?Id=BIMOLEGION"))("BIMOLEGION") end },
 
         { Name = "EMOTES/ANIMATIONS", Credits = "@7yd7", Category = "Misc", Discord = "N/A", Status = "Operational", Exec = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/7yd7/Hub/refs/heads/Branch/GUIS/Emotes.lua"))() end },
