@@ -10,11 +10,6 @@ if not _G[ProtectionConfig.SecretKey] then
     return 
 end
 
--- 2. LLAMADA A UTILS (Opcional)
-task.spawn(function()
-    pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/JOSERAX11/MVSDUELSSCRIPT/refs/heads/main/Utils.lua"))() end)
-end)
-
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
