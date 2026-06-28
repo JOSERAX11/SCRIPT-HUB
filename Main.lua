@@ -6,8 +6,9 @@ local Config = {
     
     MainScriptURLs    = {
         "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Core.lua",
-        "https://raw.githubusercontent.com/OTRO-LINK/SCRIPT/main/Core2.lua",
-        "https://raw.githubusercontent.com/TERCER-LINK/SCRIPT/main/Core3.lua"
+        "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils.lua",
+        "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils1.lua"
+        "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Utils2.lua"
     },
 
     ShowDiscord     = true,
