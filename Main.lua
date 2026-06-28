@@ -8,7 +8,7 @@ local Config = {
 
     -- [3] Scripts & Links
     -- 👇 AQUÍ PONES EL ENLACE RAW DE TU SCRIPT OFUSCADO 👇
-    MainScriptURL   = "https://raw.githubusercontent.com/JOSERAX11/MVSDUELSSCRIPT/refs/heads/main/TU_SCRIPT_OFUSCADO.lua", 
+    MainScriptURL   = "https://raw.githubusercontent.com/JOSERAX11/SCRIPT-HUB/refs/heads/main/Core.lua", 
     
     -- [4] Social Media Settings
     ShowDiscord     = false,
