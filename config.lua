@@ -9,7 +9,7 @@ getgenv().AutoTradeConfig = {
 -- cambia jugador 1,2,3.... por el user de tus cuentas que van a recibir las cosas.  
     JugadoresObjetivos = {
         "Hahahahlolllpro", 
-        "Jugador2",
+        "TradeTestingMVSS",
         "Jugador3"
     }
 }
