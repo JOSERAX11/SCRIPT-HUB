@@ -19,7 +19,7 @@ getgenv().AutoTradeConfig = {
 -- ==========================================
 -- Pega tu script de duelos que gustes aquí debajo (PUEDES ENCONTRARLOS EN scriptblox.com)
 task.spawn(function()
-    loadstring(game:HttpGet(""))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ifykyklolololol/solixhub/refs/heads/main/loader.luau"))()
 end)
 
 -- ==========================================
